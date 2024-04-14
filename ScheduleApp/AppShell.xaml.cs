@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using ScheduleApp.View;
+
 namespace ScheduleApp
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HelpPage : ContentPage
+	public partial class AppShell : Shell
 	{
-		public HelpPage()
+		public AppShell()
 		{
 			InitializeComponent();
 		}
-	}
+    }
 }

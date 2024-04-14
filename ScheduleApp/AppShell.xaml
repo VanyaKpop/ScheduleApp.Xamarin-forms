@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             xmlns:views="clr-namespace:ScheduleApp.View"
+             x:Class="ScheduleApp.AppShell">
+
+    <FlyoutItem Title="Главная страница">
+            <Tab Title="Расписание Дин - 219"
+                 Route="Din219">
+                <ShellContent Route="Din219" 
+                          Title="Неделя № 3"
+                          ContentTemplate="{DataTemplate views:Din219Page}"/>
+
+            </Tab>
+            <Tab Title="Расписание Дин - 209"
+                 Route="Din209">
+            <ShellContent Route="Din209" 
+                          Title="Расписание"
+                          ContentTemplate="{DataTemplate views:Din209Page}"/>
+            </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Все недели. Дин - 219">
+        <Tab Route="AllWeeksDin219">
+            <ShellContent Route="AllWeeks" 
+                          ContentTemplate="{DataTemplate views:AllWeeksPage}"/>
+        </Tab>
+    </FlyoutItem>
+</Shell>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleApp.View.AllWeeksPage"
+             xmlns:views="clr-namespace:ScheduleApp.View">
+    <TabbedPage.Children>
+        <views:Page1 Title="1 неделя"/>
+        <views:Page2 Title="2 неделя"/>
+    </TabbedPage.Children>
+</TabbedPage>
