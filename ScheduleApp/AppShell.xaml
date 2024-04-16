@@ -5,8 +5,8 @@
              xmlns:views="clr-namespace:ScheduleApp.View"
              x:Class="ScheduleApp.AppShell">
 
-    <TabBar Title="Главная страница">
-        <Tab Title="Расписание Дин"
+    <TabBar>
+        <Tab Title="Расписание"
                  Route="Din219">
             <ShellContent Route="Din219" 
                           Title="Неделя № 3"
