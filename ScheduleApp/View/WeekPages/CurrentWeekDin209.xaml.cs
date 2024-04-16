@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace ScheduleApp.View
+namespace ScheduleApp.View.WeekPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page2 : ContentPage
+	public partial class CurrentWeekDin209 : ContentPage
 	{
-		public Page2()
+		public CurrentWeekDin209 ()
 		{
-			InitializeComponent();
+			InitializeComponent ();
 		}
 	}
 }

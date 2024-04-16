@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScheduleApp.View.WeekPages.NextWeekDin219">
+    <StackLayout BackgroundColor="#FFFFFF">
+        <ScrollView>
+            <StackLayout>
+                <!-- ПОказывает текущую неделю -->
+                <Frame>
+                    <Label Text="{Binding Week}" HorizontalOptions="Center" FontSize="Medium" TextColor="Black"/>
+                </Frame>
+
+
+                <!-- Расписание на понедельник -->
+                <!-- Monday -->
+                <Frame Style="{StaticResource FrameStyle}">
+                    <Label Text="{Binding Monday}" Style="{StaticResource FontStyle}"/>
+                </Frame>
+
+                <!-- Расписание на вторник -->
+                <!-- Tuesday -->
+                <Frame Style="{StaticResource FrameStyle}">
+                    <Label Text="{Binding Tuesday}" Style="{StaticResource FontStyle}"/>
+                </Frame>
+
+                <!-- Расписание на среду -->
+                <!-- Wednesday -->
+                <Frame Style="{StaticResource FrameStyle}">
+                    <Label Text="{Binding Wednesday}" Style="{StaticResource FontStyle}"/>
+                </Frame>
+
+                <!-- Расписание на четверг -->
+                <!-- Thursday -->
+                <Frame Style="{StaticResource FrameStyle}">
+                    <Label Text="{Binding Thursday}" Style="{StaticResource FontStyle}"/>
+                </Frame>
+
+                <!-- Расписание на пятницу -->
+                <!-- Friday -->
+                <Frame Style="{StaticResource FrameStyle}">
+                    <Label Text="{Binding Friday}" Style="{StaticResource FontStyle}"/>
+                </Frame>
+
+                <!-- Расписание на субботу -->
+                <!-- Saturday -->
+                <Frame Style="{StaticResource FrameStyle}">
+                    <Label Text="{Binding Saturday}" Style="{StaticResource FontStyle}"/>
+                </Frame>
+                <Frame Style="{StaticResource NothingFrame}"/>
+            </StackLayout>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

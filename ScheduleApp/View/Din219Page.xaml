@@ -2,9 +2,9 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ScheduleApp.View.Din219Page"
-             xmlns:views="clr-namespace:ScheduleApp.View">
+             xmlns:views="clr-namespace:ScheduleApp.View.WeekPages">
     <TabbedPage.Children>
-        <views:Page1 Title="Текущая неделя"/>
-        <views:Page2 Title="Следующая неделя"/>
+        <views:CurrentWeekDin219 Title="Текущая неделя"/>
+        <views:NextWeekDin219 Title="Следующая неделя"/>
     </TabbedPage.Children>
 </TabbedPage>

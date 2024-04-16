@@ -5,26 +5,28 @@
              xmlns:views="clr-namespace:ScheduleApp.View"
              x:Class="ScheduleApp.AppShell">
 
-    <FlyoutItem Title="Главная страница">
-            <Tab Title="Расписание Дин - 219"
+    <TabBar Title="Главная страница">
+        <Tab Title="Расписание Дин"
                  Route="Din219">
-                <ShellContent Route="Din219" 
+            <ShellContent Route="Din219" 
                           Title="Неделя № 3"
                           ContentTemplate="{DataTemplate views:Din219Page}"/>
 
-            </Tab>
-            <Tab Title="Расписание Дин - 209"
-                 Route="Din209">
-            <ShellContent Route="Din209" 
-                          Title="Расписание"
-                          ContentTemplate="{DataTemplate views:Din209Page}"/>
-            </Tab>
-    </FlyoutItem>
+        </Tab>
+        <Tab Title="Зачеты / экзамены"
+            Route="HEll">
+            <ShellContent Route="ProstateExam" 
+                          ContentTemplate="{DataTemplate views:ProstateExam}"/>
+        </Tab>
+        
+    </TabBar>
 
-    <FlyoutItem Title="Все недели. Дин - 219">
-        <Tab Route="AllWeeksDin219">
+    <!--
+    <FlyoutItem Title="Рассписание зачетов">
+        <Tab Title="Все недели" 
+             Route="AllWeeksDin219">
             <ShellContent Route="AllWeeks" 
                           ContentTemplate="{DataTemplate views:AllWeeksPage}"/>
         </Tab>
-    </FlyoutItem>
+    </FlyoutItem> -->
 </Shell>
