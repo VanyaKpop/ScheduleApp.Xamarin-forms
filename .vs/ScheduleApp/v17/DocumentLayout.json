@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\App\\VS Programm\\Android\\ScheduleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\weekpages\\currentweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\weekpages\\currentweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\din219page.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\din219page.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\weekpages\\nextweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\weekpages\\nextweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\App.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\App.xaml",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\App.xaml",
+              "RelativeToolTip": "ScheduleApp\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T11:54:37.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Din219Page.xaml",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\Din219Page.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\View\\Din219Page.xaml",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\Din219Page.xaml",
+              "RelativeToolTip": "ScheduleApp\\View\\Din219Page.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T10:25:22.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrentWeekDin219.xaml",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "RelativeToolTip": "ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T09:16:42.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NextWeekDin219.xaml",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "RelativeToolTip": "ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-01T09:16:45.668Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

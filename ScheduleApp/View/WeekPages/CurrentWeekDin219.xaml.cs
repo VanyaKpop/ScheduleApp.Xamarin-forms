@@ -16,28 +16,31 @@ namespace ScheduleApp.View.WeekPages
 		{
 			InitializeComponent();
 			SetText();
-
-
 		}
 
 		void SetText()
 		{
 			Lessons lessons = new Lessons();
 
-			var assembly = IntrospectionExtensions.GetTypeInfo(typeof(CurrentWeekDin219)).Assembly;
-			this.BindingContext = new LessonsViewModel()
+			int week = (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1;
+            this.BindingContext = new LessonsViewModel()
 			{
-				Week = $"Сейчас {(int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1} неделя",
-				Monday = lessons.JsonLoad("monday", (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1, assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")),
-				Tuesday = lessons.JsonLoad("tuesday", (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1, assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")),
-				Wednesday = lessons.JsonLoad("wednesday", (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1, assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")),
-				Thursday = lessons.JsonLoad("thursday", (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1, assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")),
-				Friday = lessons.JsonLoad("friday", (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1, assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")),
-				Saturday = lessons.JsonLoad("saturday", (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1, assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")),
+				Week = $"Сейчас {week} неделя",
+				Monday = IsEmpty(lessons.JsonLoad("monday", week)),
+				Tuesday = IsEmpty(lessons.JsonLoad("tuesday", week)),
+				Wednesday = IsEmpty(lessons.JsonLoad("wednesday", week)),
+				Thursday = IsEmpty(lessons.JsonLoad("thursday", week)),
+				Friday = IsEmpty(lessons.JsonLoad("friday", week)),
+				Saturday = IsEmpty(lessons.JsonLoad("saturday", week)),
 
 			};
 		}
-	}
+        string IsEmpty(string str)
+        {
+            if (str == null | str == "")
+                return "Пусто";
+            return str;
+        }
 
-
+    }
 }

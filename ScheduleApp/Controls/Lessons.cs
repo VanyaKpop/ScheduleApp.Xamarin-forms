@@ -5,6 +5,7 @@ using System.IO;
 using System.Globalization;
 using Newtonsoft.Json;
 using System.Linq;
+using ScheduleApp.View.WeekPages;
 
 
 namespace lessons
@@ -12,11 +13,13 @@ namespace lessons
     class Lessons
     {
 
-        public string JsonLoad(string weekNow, int week, Stream stream)
+        public string JsonLoad(string weekNow, int week)
         {
             string hell = "";
 
-            using (StreamReader reader = new StreamReader(stream))
+            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(Lessons)).Assembly;
+
+            using (StreamReader reader = new StreamReader(assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")))
             {
                 var json = reader.ReadToEnd().ToString();
                 Root resultParse = JsonConvert.DeserializeObject<Root>(json);

@@ -209,17 +209,6 @@
 			"numeration": 4,
 			"even": null,
 			"lesson": "Основы философии (лек). актовый зал"
-		}, 
-
-		// Sunday
-		{
-			"idWeek": "sunday",
-			"weekStart": 1,
-			"weekEnd": 30,
-			"numeration": null,
-			"even": null,
-			"lesson": "ЕЕЕ УРА ВЫХОДНОЙ"
 		}
-
 	]
 }
