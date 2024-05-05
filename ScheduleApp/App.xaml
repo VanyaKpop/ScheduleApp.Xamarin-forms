@@ -6,7 +6,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <Style x:Key="FrameStyle" TargetType="Frame">
-                <Setter Property="BackgroundColor" Value="#FFFFFF"/>
+                <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="Padding" Value="15"/>
                 <Setter Property="Margin" Value="5"/>
                 <Setter Property="CornerRadius" Value="15"/>
@@ -15,13 +15,55 @@
                 <Setter Property="xct:ShadowEffect.Opacity" Value="0.5"/>
                 <Setter Property="xct:ShadowEffect.Radius" Value="5"/>
             </Style>
+            
             <Style x:Key="FontStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="Black"/>
             </Style>
+            <Style x:Key="FontStyleHeader" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Scale" Value="1.4"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+            
             <Style x:Key="NothingFrame" TargetType="Frame">
                 <Setter Property="HasShadow" Value="False"/>
                 <Setter Property="BackgroundColor" Value="Transparent"/>
+            </Style>
+            <Style x:Key="BorderFrame" TargetType="Frame">
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="BackgroundColor" Value="Black"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="Scale" Value="0.7"/>
+                <Setter Property="Margin" Value="0"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+            
+            <Style x:Key="HeaderMain" TargetType="Frame">
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="Margin" Value="0"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+            <Style x:Key="HeaderMainButton" TargetType="Frame">
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="17"/>
+                <Setter Property="Scale" Value="0.9"/>
+                <Setter Property="ScaleX" Value="1.08"/>
+            </Style>
+
+            <Style x:Key="LigmaBalls" TargetType="Frame">
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="BackgroundColor" Value="BLack"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="WidthRequest" Value="50"/>
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="Margin" Value="0"/>
+                <Setter Property="Padding" Value="0"/>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

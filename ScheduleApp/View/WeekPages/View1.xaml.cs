@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ScheduleApp.View.WeekPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CurrentWeekDin209 : ContentPage
+	public partial class View1 : ContentView
 	{
-		public CurrentWeekDin209 ()
+		public View1 ()
 		{
 			InitializeComponent ();
 		}

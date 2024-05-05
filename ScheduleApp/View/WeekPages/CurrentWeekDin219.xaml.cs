@@ -5,17 +5,22 @@ using System.Globalization;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
+using ScheduleApp.View;
 using ScheduleApp.ViewModel;
 using lessons;
+using Xamarin.CommunityToolkit.UI.Views;
 
 namespace ScheduleApp.View.WeekPages
 {
-	public partial class CurrentWeekDin219 : ContentPage
+	public partial class CurrentWeekDin219 : ContentView
 	{
 		public CurrentWeekDin219()
 		{
 			InitializeComponent();
+			
 			SetText();
+
 		}
 
 		void SetText()

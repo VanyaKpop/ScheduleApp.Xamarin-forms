@@ -11,7 +11,7 @@ using lessons;
 namespace ScheduleApp.View.WeekPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class NextWeekDin219 : ContentPage
+	public partial class NextWeekDin219 : ContentView
 	{
 		public NextWeekDin219 ()
 		{

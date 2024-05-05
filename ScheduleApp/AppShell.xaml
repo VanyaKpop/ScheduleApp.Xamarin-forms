@@ -1,61 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:views="clr-namespace:ScheduleApp.View"
-             x:Class="ScheduleApp.AppShell"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+       xmlns:views="clr-namespace:ScheduleApp.View"
+       x:Class="ScheduleApp.AppShell"
+       TitleColor="Black"
        >
-
     <TabBar>
         <Tab Title="Расписание"
-                 Route="Din219">
+             Route="Din219">
             <ShellContent Route="Din219" 
-                          Title="Неделя № 3"
-                          ContentTemplate="{DataTemplate views:Din219Page}"/>
+                      Title="Неделя № 3"
+                      ContentTemplate="{DataTemplate views:Din219Page}"/>
 
         </Tab>
-        <Tab Title="Зачеты / экзамены"
-            Route="HEll">
-            <ShellContent Route="ProstateExam" 
-                          ContentTemplate="{DataTemplate views:ProstateExam}"/>
+        <Tab Title="Зачеты"
+     Route="huh">
+            <ShellContent Route="hell" 
+              Title="Неделя № 3"
+              ContentTemplate="{DataTemplate views:ProstateExam}"/>
+
         </Tab>
-        
     </TabBar>
-
     <!--
-    <FlyoutItem Title="Рассписание зачетов">
-        <Tab Title="Все недели" 
-             Route="AllWeeksDin219">
-            <ShellContent Route="AllWeeks" 
-                          ContentTemplate="{DataTemplate views:AllWeeksPage}"/>
-        </Tab>
-    
-    			InitializeComponent();
+     <TabBar>
+     <Tab Title="Расписание"
+              Route="Din219">
+         <ShellContent Route="Din219" 
+                       Title="Неделя № 3"
+                       ContentTemplate="{DataTemplate views:Din219Page}"/>
 
-			MainPage = new AppShell();
-    
-    
-        <Application.Resources>
-        <ResourceDictionary>
-            <Style x:Key="FrameStyle" TargetType="Frame">
-                <Setter Property="BackgroundColor" Value="#FFFFFF"/>
-                <Setter Property="Padding" Value="15"/>
-                <Setter Property="Margin" Value="5"/>
-                <Setter Property="CornerRadius" Value="15"/>
-                <Setter Property="HasShadow" Value="True"/>
-                <Setter Property="xct:ShadowEffect.Color" Value="#9B9B9B"/>
-                <Setter Property="xct:ShadowEffect.Opacity" Value="0.5"/>
-                <Setter Property="xct:ShadowEffect.Radius" Value="5"/>
-            </Style>
-            <Style x:Key="FontStyle" TargetType="Label">
-                <Setter Property="FontSize" Value="Small"/>
-                <Setter Property="TextColor" Value="Black"/>
-            </Style>
-            <Style x:Key="NothingFrame" TargetType="Frame">
-                <Setter Property="HasShadow" Value="False"/>
-                <Setter Property="BackgroundColor" Value="Transparent"/>
-            </Style>
-        </ResourceDictionary>
-    </Application.Resources>
-    
-    </FlyoutItem> -->
+     </Tab>
+     <Tab Title="Зачеты"
+      Route="huh">
+         <ShellContent Route="hell" 
+               Title="Неделя № 3"
+               ContentTemplate="{DataTemplate views:ProstateExam}"/>
+
+     </Tab>
+ </TabBar> -->
 </Shell>

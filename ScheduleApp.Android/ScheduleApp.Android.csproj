@@ -89,7 +89,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\test.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ScheduleApp\ScheduleApp.csproj">
       <Project>{113333DF-968C-4998-A096-818F24C9E8F1}</Project>
@@ -113,6 +115,37 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Widget.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\test1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Frame.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\Current_Icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\Current_Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\Current_Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\Current_Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\Current_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Current_Icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\Lessons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\Lessons.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\Lessons.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\Lessons.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\Lessons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\Lessons.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
