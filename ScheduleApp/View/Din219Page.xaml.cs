@@ -15,7 +15,7 @@ using Xamarin.CommunityToolkit.UI.Views;
 namespace ScheduleApp.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Din219Page : ContentView
+	public partial class Din219Page : ContentPage
 	{
 		public Din219Page()
 		{

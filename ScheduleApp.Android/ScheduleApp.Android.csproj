@@ -90,9 +90,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\test.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ScheduleApp\ScheduleApp.csproj">
       <Project>{113333DF-968C-4998-A096-818F24C9E8F1}</Project>
       <Name>ScheduleApp</Name>
@@ -108,44 +105,43 @@
     <AndroidResource Include="Resources\drawable\WidgetBackground.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\xamarin.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\xml\widget_provider.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Widget.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\test1.png" />
+    <AndroidResource Include="Resources\drawable\megaphone.png" />
+    <AndroidResource Include="Resources\drawable\reservationTable.png" />
+    <AndroidResource Include="Resources\drawable\xamarin.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\megaphone.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\reservationTable.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\megaphone.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\reservationTable.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\megaphone.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\reservationTable.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\megaphone.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\reservationTable.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\megaphone.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\reservationTable.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Frame.xml" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\graduationCap.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\Current_Icon.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\Current_Icon.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\Current_Icon.png" />
-    <AndroidResource Include="Resources\mipmap-xxhdpi\Current_Icon.png" />
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\Current_Icon.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\graduationCap.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Current_Icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
+    <AndroidResource Include="Resources\mipmap-xhdpi\graduationCap.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\Lessons.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\graduationCap.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\Lessons.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\Lessons.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\Lessons.png" />
-    <AndroidResource Include="Resources\mipmap-xxhdpi\Lessons.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\graduationCap.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Lessons.png" />
+    <AndroidResource Include="Resources\drawable\graduationCap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

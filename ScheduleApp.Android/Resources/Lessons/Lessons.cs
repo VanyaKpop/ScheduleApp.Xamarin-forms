@@ -37,7 +37,10 @@ namespace lesson
                     hell += $"{i.numeration}.  {i.lesson} \n";
                 }
 
-                return hell;
+                if (hell == null | hell == "")
+                    return "Сегодня выходной";
+                else
+                    return hell;
             }
         }
 

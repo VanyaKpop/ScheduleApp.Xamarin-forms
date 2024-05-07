@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="ScheduleApp.View.Din219Page"
             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
@@ -13,7 +13,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="55" />
+            <RowDefinition Height="60" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Frame Style="{StaticResource BorderFrame}" Grid.Row="0" Grid.Column="0">
@@ -51,5 +51,5 @@
             />
         </xct:TabView>
     </Grid>
-</ContentView>
+</ContentPage>
     

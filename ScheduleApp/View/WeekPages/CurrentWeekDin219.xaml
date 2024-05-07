@@ -9,12 +9,13 @@
     <StackLayout>
         <ScrollView>
             <StackLayout>
-                <!-- Показывает текущую неделю -->
-                <!-- Расписание на понедельник -->
+            <!-- Показывает текущую неделю -->
+            <!-- Расписание на понедельник -->
             <!-- Monday -->
+                
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
-                    <Label Text="Понедельник" Style="{StaticResource FontStyle}"/>
+                        <Label Text="Понедельник" Style="{StaticResource FontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Monday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
              </Frame>
@@ -23,7 +24,7 @@
             <!-- Tuesday -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
-                    <Label Text="Вторник" Style="{StaticResource FontStyle}"/>
+                        <Label Text="Вторник" Style="{StaticResource FontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Tuesday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
@@ -32,7 +33,7 @@
             <!-- Wednesday -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
-                    <Label Text="Среда" Style="{StaticResource FontStyle}"/>
+                        <Label Text="Среда" Style="{StaticResource FontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Wednesday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
@@ -41,7 +42,7 @@
             <!-- Thursday -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
-                    <Label Text="Четверг" Style="{StaticResource FontStyle}"/>
+                    <Label Text="Четверг" Style="{StaticResource FontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Thursday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
@@ -49,14 +50,14 @@
             <!-- Расписание на пятницу -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
-                    <Label Text="Пятница" Style="{StaticResource FontStyle}"/>
+                        <Label Text="Пятница" Style="{StaticResource FontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Friday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
             <!-- Расписание на субботу -->
-            <Frame Style="{StaticResource FrameStyle}">
+            <Frame Style="{StaticResource FrameStyle}" >
                 <StackLayout>
-                    <Label Text="Суббота" Style="{StaticResource FontStyle}"/>
+                        <Label Text="Суббота" Style="{StaticResource FontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Saturday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>

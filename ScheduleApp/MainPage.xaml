@@ -29,8 +29,8 @@
             <xct:TabViewItem x:Name="tb2"/>
         </xct:TabView>
         <Frame Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="Red"/>
-        <Frame Grid.Row="1" Grid.Column="0" Style="{StaticResource LigmaBalls}">
-            <Image Source="Lessons.png" Scale="1"/>
+        <Frame Grid.Row="1" Grid.Column="0" Style="{StaticResource LigmaBalls}" BackgroundColor="Blue">
+            <Image Source="test.png" Scale="1" Aspect="AspectFill"/>
         </Frame>
         <Frame Grid.Row="1" Grid.Column="1" Style="{StaticResource LigmaBalls}">
         </Frame>

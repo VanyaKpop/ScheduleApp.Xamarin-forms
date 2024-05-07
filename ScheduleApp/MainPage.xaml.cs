@@ -16,11 +16,6 @@ namespace ScheduleApp
         public MainPage()
         {
             InitializeComponent();
-
-            Din219Page din219Page = new Din219Page();
-
-            mytabview2.TabItems[0].Content = din219Page;
-            mytabview2.TabItems[1].Content = new ProstateExam();
         }
     }
 }

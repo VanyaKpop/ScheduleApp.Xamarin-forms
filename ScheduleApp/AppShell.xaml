@@ -8,14 +8,14 @@
        >
     <TabBar>
         <Tab Title="Расписание"
-             Route="Din219">
+             Route="Din219" Icon="graduationCap.png">
             <ShellContent Route="Din219" 
                       Title="Неделя № 3"
                       ContentTemplate="{DataTemplate views:Din219Page}"/>
 
         </Tab>
         <Tab Title="Зачеты"
-     Route="huh">
+            Route="huh" Icon="megaphone.png">
             <ShellContent Route="hell" 
               Title="Неделя № 3"
               ContentTemplate="{DataTemplate views:ProstateExam}"/>
