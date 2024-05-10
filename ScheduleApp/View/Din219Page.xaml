@@ -5,6 +5,7 @@
             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
             xmlns:views="clr-namespace:ScheduleApp.View.WeekPages"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            BackgroundColor="#F3F3F3"
             >
 
     <Grid RowSpacing="0">
@@ -16,16 +17,15 @@
             <RowDefinition Height="60" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <Frame Style="{StaticResource BorderFrame}" Grid.Row="0" Grid.Column="0">
-            <Frame x:Name="CurrentWeek" Style="{StaticResource HeaderMainButton}" Grid.Row="0" Grid.Column="0">
-                <Label  x:Name="CurrentWeekText" Text="Текущая неделя" Style="{StaticResource FontStyleHeader}"/>
-            </Frame>
+        <Frame x:Name="BorderFrame" Style="{StaticResource BorderFrame}" Grid.Row="0" Grid.Column="0" BackgroundColor="#E5951A"/>
+        <Frame x:Name="CurrentWeek" Style="{StaticResource HeaderMainButton}" Grid.Row="0" Grid.Column="0" >
+            <Label  x:Name="CurrentWeekText" Text="Текущая неделя" Style="{StaticResource FontStyleHeader}"/>
         </Frame>
-        <Frame Style="{StaticResource BorderFrame}" Grid.Row="0" Grid.Column="1">
-            <Frame x:Name="NextWeek" Style="{StaticResource HeaderMainButton}" Grid.Row="0" Grid.Column="1">
-                <Label x:Name="NextWeekText" Text="Следующая неделя" Style="{StaticResource FontStyleHeader}"/>
+        <Frame x:Name="NextWeek" Style="{StaticResource HeaderMainButton}" Grid.Row="0" Grid.Column="1">
+            <Label x:Name="NextWeekText" Text="Следующая неделя" Style="{StaticResource FontStyleHeader}"/>
         </Frame>
-        </Frame>
+
+
         <xct:TabView 
         Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" 
         SelectionChanged="mytabview_SelectionChanged"

@@ -72,6 +72,23 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-VariableFont_wght.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-Black.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-BlackItalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-Bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-BoldItalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-ExtraBold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-ExtraBoldItalic.ttf" />
+    <None Include="Resources\Fonts\Nunito-ExtraLight.ttf" />
+    <None Include="Resources\Fonts\Nunito-ExtraLightItalic.ttf" />
+    <None Include="Resources\Fonts\Nunito-Italic.ttf" />
+    <None Include="Resources\Fonts\Nunito-Light.ttf" />
+    <None Include="Resources\Fonts\Nunito-LightItalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-Medium.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-MediumItalic.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-Regular.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Nunito-SemiBold.ttf" />
+    <None Include="Resources\Fonts\Nunito-SemiBoldItalic.ttf" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml" />
@@ -142,6 +159,24 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\graduationCap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\house_chimney.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xxhdpi\house_chimney.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-xhdpi\house_chimney.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-mdpi\house_chimney.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\mipmap-hdpi\house_chimney.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\house_chimney.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

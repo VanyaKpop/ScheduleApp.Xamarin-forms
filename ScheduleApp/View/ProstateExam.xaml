@@ -5,7 +5,7 @@
              >
     <StackLayout>
         <Frame>
-            <Label Text="Удачи чемпион" HorizontalOptions="Center" FontSize="Medium" TextColor="Black"/>
+            <Label Text="Удачи чемпион" HorizontalOptions="Center" FontSize="Medium" TextColor="Black" Style="{StaticResource AnotherFontStyle}"/>
         </Frame>
         <Frame Style="{StaticResource FrameStyle}">
             <Label Text="Экзамены появятся как только их выложат в открытый доступ" Style="{StaticResource FontStyle}"/>

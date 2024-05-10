@@ -30,7 +30,7 @@ namespace ScheduleApp.View.WeekPages
 			int week = (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1;
             this.BindingContext = new LessonsViewModel()
 			{
-				Week = $"Сейчас {week} неделя",
+				Week = $"{week} неделя",
 				Monday = IsEmpty(lessons.JsonLoad("monday", week)),
 				Tuesday = IsEmpty(lessons.JsonLoad("tuesday", week)),
 				Wednesday = IsEmpty(lessons.JsonLoad("wednesday", week)),

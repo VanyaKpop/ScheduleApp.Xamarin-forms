@@ -12,18 +12,26 @@
                 <Setter Property="CornerRadius" Value="15"/>
                 <Setter Property="HasShadow" Value="True"/>
                 <Setter Property="xct:ShadowEffect.Color" Value="#9B9B9B"/>
-                <Setter Property="xct:ShadowEffect.Opacity" Value="0.5"/>
+                <Setter Property="xct:ShadowEffect.Opacity" Value="0.9"/>
                 <Setter Property="xct:ShadowEffect.Radius" Value="5"/>
             </Style>
             
             <Style x:Key="FontStyle" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontFamily" Value="NunitoRegular" />
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+            <Style x:Key="AnotherFontStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontFamily" Value="NunitoSemi" />
             </Style>
             <Style x:Key="FontStyleHeader" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
                 <Setter Property="TextColor" Value="Black"/>
-                <Setter Property="Scale" Value="1.3"/>
+                <Setter Property="FontFamily" Value="NunitoBold" />
+                <Setter Property="Scale" Value="1"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center" />
             </Style>
             
@@ -35,7 +43,10 @@
                 <Setter Property="HasShadow" Value="False"/>
                 <Setter Property="BackgroundColor" Value="Black"/>
                 <Setter Property="CornerRadius" Value="20"/>
-                <Setter Property="Scale" Value="0.7"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="WidthRequest" Value="140"/>
+                <Setter Property="HeightRequest" Value="50"/>
                 <Setter Property="Margin" Value="0"/>
                 <Setter Property="Padding" Value="0"/>
             </Style>
@@ -48,7 +59,7 @@
             </Style>
             <Style x:Key="HeaderMainButton" TargetType="Frame">
                 <Setter Property="HasShadow" Value="False"/>
-                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
                 <Setter Property="CornerRadius" Value="17"/>
                 <Setter Property="Scale" Value="0.9"/>
                 <Setter Property="ScaleX" Value="1.08"/>

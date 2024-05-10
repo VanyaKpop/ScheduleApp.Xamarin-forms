@@ -2,6 +2,7 @@
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Android.App;
+using Xamarin.Forms;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -15,6 +16,16 @@ using Android.App;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
+
+// Add some fonts
+[assembly: ExportFont("Nunito-VariableFont_wght.ttf", Alias = "Nunito")]
+[assembly: ExportFont("Nunito-Black.ttf", Alias = "NunitoBlack")]
+[assembly: ExportFont("Nunito-Bold.ttf", Alias = "NunitoBold")]
+[assembly: ExportFont("Nunito-ExtraBold.ttf", Alias = "NunitoExtra")]
+[assembly: ExportFont("Nunito-SemiBold.ttf", Alias = "NunitoSemi")]
+[assembly: ExportFont("Nunito-Medium.ttf", Alias = "NunitoMedium")]
+[assembly: ExportFont("Nunito-MediumItalic.ttf", Alias = "NunitoMediumItalic")]
+[assembly: ExportFont("Nunito-Regular.ttf", Alias = "NunitoRegular")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -25,7 +25,7 @@ namespace ScheduleApp.View.WeekPages
 
 			this.BindingContext = new LessonsViewModel()
 			{
-				Week = $"Следующая неделя: {week}",
+				Week = $"{week} Неделя",
                 Monday = IsEmpty(lessons.JsonLoad("monday", week)),
                 Tuesday = IsEmpty(lessons.JsonLoad("tuesday", week)),
                 Wednesday = IsEmpty(lessons.JsonLoad("wednesday", week)),

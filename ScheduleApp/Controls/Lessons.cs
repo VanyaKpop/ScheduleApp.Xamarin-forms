@@ -24,10 +24,8 @@ namespace lessons
                 var json = reader.ReadToEnd().ToString();
                 Root resultParse = JsonConvert.DeserializeObject<Root>(json);
 
-                var item = resultParse.Lesson;
-
                 var result =
-                    from i in item
+                    from i in resultParse.Lesson
                     where i.weekStart <= week && week <= i.weekEnd && i.idWeek == weekNow && (i.even == null || i.even == (week % 2 == 0))
 
                     orderby i.numeration
@@ -50,6 +48,7 @@ namespace lessons
         public int? numeration { get; set; }
         public bool? even { get; set; }
         public string lesson { get; set; }
+        public string time { get; set; }
     }
 
     class Root
