@@ -10,7 +10,6 @@ using lessons;
 
 namespace ScheduleApp.View.WeekPages
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class NextWeekDin219 : ContentView
 	{
 		public NextWeekDin219 ()
@@ -22,7 +21,6 @@ namespace ScheduleApp.View.WeekPages
 		{
 			Lessons lessons = new Lessons();
 			int week = (int)ISOWeek.GetWeekOfYear(DateTime.Now);
-
 			this.BindingContext = new LessonsViewModel()
 			{
 				Week = $"{week} Неделя",

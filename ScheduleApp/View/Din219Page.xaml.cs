@@ -11,6 +11,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.Drawing;
 using Xamarin.CommunityToolkit.UI.Views;
+using Xamarin.Forms.PlatformConfiguration.GTKSpecific;
 
 namespace ScheduleApp.View
 {
@@ -30,46 +31,17 @@ namespace ScheduleApp.View
 
         }
 
-        void Selection()
-		{
-			switch (mytabview.TabIndex)
-			{
-                case 0:
-                   
-                    break;
-            }
-		}
-
         private void mytabview_SelectionChanged(object sender, TabSelectionChangedEventArgs e)
         {
             switch (e.NewPosition)
             {
                 case 0:
-                    BorderFrame.TranslateTo(CurrentWeek.X, CurrentWeek.Y, 250, Easing.CubicInOut);
-
+                    _BoxView.TranslateTo(CurrentWeekText.X, CurrentWeekText.Y, 150, Easing.Linear);
                     break;
                 case 1:
-                    BorderFrame.TranslateTo(NextWeek.X, NextWeek.Y, 250, Easing.CubicInOut);
+                    _BoxView.TranslateTo(NextWeekText.X, NextWeekText.Y, 150, Easing.Linear);
                     break;
             }
-        }
-
-        void selection()
-        {
-            // 0
-            NextWeek.BackgroundColor = Xamarin.Forms.Color.FromHex("#F6F2E7");
-            NextWeekText.TextColor = Xamarin.Forms.Color.Black;
-            NextWeekText.FontAttributes = FontAttributes.None;
-            CurrentWeek.BackgroundColor = Xamarin.Forms.Color.FromHex("#000000");
-            CurrentWeekText.TextColor = Xamarin.Forms.Color.White;
-            CurrentWeekText.FontAttributes = FontAttributes.Bold;
-            // 1
-            CurrentWeek.BackgroundColor = Xamarin.Forms.Color.FromHex("#F6F2E7");
-            CurrentWeekText.FontAttributes = FontAttributes.None;
-            CurrentWeekText.TextColor = Xamarin.Forms.Color.Black;
-            NextWeek.BackgroundColor = Xamarin.Forms.Color.FromHex("#000000");
-            NextWeekText.TextColor = Xamarin.Forms.Color.White;
-            NextWeekText.FontAttributes = FontAttributes.Bold;
         }
     }
 }

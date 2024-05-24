@@ -1,25 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             x:Class="ScheduleApp.View.WeekPages.CurrentWeekDin219"
-             >
-
-    <StackLayout>
-        <ScrollView>
-            <StackLayout>
-            <!-- Показывает текущую неделю 
-                 Расписание на понедельник -->
-
+             x:Class="ScheduleApp.View.WeekPages.CurrentWeekDin219">
+    <ScrollView>
+        <StackLayout>
+            <!-- Показывает текущую неделю -->
             <Label Text="{Binding Week}" Style="{StaticResource AnotherFontStyle}" Padding="15" FontSize="Large"/>
-
+            
+            <!-- Расписание на понедельник -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
                     <Label Text="Понедельник" Style="{StaticResource AnotherFontStyle}" FontSize="Subtitle" />
                     <Label Text="{Binding Monday}" Style="{StaticResource FontStyle}" />
                 </StackLayout>
-             </Frame>
-
+            </Frame>
             <!-- Расписание на вторник -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
@@ -27,23 +21,20 @@
                     <Label Text="{Binding Tuesday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
-
-                <!-- Расписание на среду -->
+            <!-- Расписание на среду -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
                     <Label Text="Среда" Style="{StaticResource AnotherFontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Wednesday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
-
-                <!-- Расписание на четверг -->
+            <!-- Расписание на четверг -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
                     <Label Text="Четверг" Style="{StaticResource AnotherFontStyle}" FontSize="Subtitle"/>
                     <Label Text="{Binding Thursday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
-
             <!-- Расписание на пятницу -->
             <Frame Style="{StaticResource FrameStyle}">
                 <StackLayout>
@@ -58,10 +49,8 @@
                     <Label Text="{Binding Saturday}" Style="{StaticResource FontStyle}"/>
                 </StackLayout>
             </Frame>
-                
-            <Frame Style="{StaticResource NothingFrame}"/>
-            </StackLayout>
-        </ScrollView>
-    </StackLayout>
-
+        </StackLayout>
+    </ScrollView>
 </ContentView>
+   
+    

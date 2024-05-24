@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\App\\VS Programm\\Android\\ScheduleApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\din219page.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\din219page.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\weekpages\\nextweekdin219.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\weekpages\\nextweekdin219.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\weekpages\\nextweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\weekpages\\nextweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\prostateexam.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\prostateexam.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\view\\weekpages\\currentweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\view\\weekpages\\currentweekdin219.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB256C83-D6A6-4D8A-AE8F-6954E8F2E449}|ScheduleApp.Android\\ScheduleApp.Android.csproj|C:\\App\\VS Programm\\Android\\ScheduleApp\\scheduleapp.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB256C83-D6A6-4D8A-AE8F-6954E8F2E449}|ScheduleApp.Android\\ScheduleApp.Android.csproj|solutionrelative:scheduleapp.android\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\controls\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\controls\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB256C83-D6A6-4D8A-AE8F-6954E8F2E449}|ScheduleApp.Android\\ScheduleApp.Android.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp.android\\resources\\lessons\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB256C83-D6A6-4D8A-AE8F-6954E8F2E449}|ScheduleApp.Android\\ScheduleApp.Android.csproj|solutionrelative:scheduleapp.android\\resources\\lessons\\lessons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\viewmodel\\lessonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\viewmodel\\lessonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|c:\\app\\vs programm\\android\\scheduleapp\\scheduleapp\\data\\lesson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C92D72AF-E858-4E0B-BF0B-124E716A1E2C}|ScheduleApp\\ScheduleApp.csproj|solutionrelative:scheduleapp\\data\\lesson.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{228e1580-0ef9-329a-bf07-81ebc3dcbf7e}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NextWeekDin219.xaml.cs",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml.cs",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml.cs",
+              "RelativeToolTip": "ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:17:46.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NextWeekDin219.xaml",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "RelativeToolTip": "ScheduleApp\\View\\WeekPages\\NextWeekDin219.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T13:17:40.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrentWeekDin219.xaml",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "RelativeDocumentMoniker": "ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "RelativeToolTip": "ScheduleApp\\View\\WeekPages\\CurrentWeekDin219.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T13:17:14.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Lessons.cs",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp.Android\\Resources\\Lessons\\Lessons.cs",
+              "RelativeDocumentMoniker": "ScheduleApp.Android\\Resources\\Lessons\\Lessons.cs",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp.Android\\Resources\\Lessons\\Lessons.cs",
+              "RelativeToolTip": "ScheduleApp.Android\\Resources\\Lessons\\Lessons.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:51:26.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lessons.cs",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\Controls\\Lessons.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\Controls\\Lessons.cs",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\Controls\\Lessons.cs",
+              "RelativeToolTip": "ScheduleApp\\Controls\\Lessons.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwCcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T06:34:34.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LessonsViewModel.cs",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\ViewModel\\LessonsViewModel.cs",
+              "RelativeDocumentMoniker": "ScheduleApp\\ViewModel\\LessonsViewModel.cs",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\ViewModel\\LessonsViewModel.cs",
+              "RelativeToolTip": "ScheduleApp\\ViewModel\\LessonsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T12:18:30.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -38,54 +124,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProstateExam.xaml",
-              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\ProstateExam.xaml",
-              "RelativeDocumentMoniker": "ScheduleApp\\View\\ProstateExam.xaml",
-              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\ProstateExam.xaml",
-              "RelativeToolTip": "ScheduleApp\\View\\ProstateExam.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T05:15:30.057Z",
+              "DocumentIndex": 6,
+              "Title": "Lesson.json",
+              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\Data\\Lesson.json",
+              "RelativeDocumentMoniker": "ScheduleApp\\Data\\Lesson.json",
+              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\Data\\Lesson.json",
+              "RelativeToolTip": "ScheduleApp\\Data\\Lesson.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T06:36:28.17Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Din219Page.xaml",
-              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\Din219Page.xaml",
-              "RelativeDocumentMoniker": "ScheduleApp\\View\\Din219Page.xaml",
-              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\View\\Din219Page.xaml",
-              "RelativeToolTip": "ScheduleApp\\View\\Din219Page.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-09T09:35:01.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\App.xaml",
-              "RelativeDocumentMoniker": "ScheduleApp\\App.xaml",
-              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp\\App.xaml",
-              "RelativeToolTip": "ScheduleApp\\App.xaml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAD8AAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-07T15:10:15.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp.Android\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "ScheduleApp.Android\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\App\\VS Programm\\Android\\ScheduleApp\\ScheduleApp.Android\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "ScheduleApp.Android\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T10:36:50.307Z"
             }
           ]
         }

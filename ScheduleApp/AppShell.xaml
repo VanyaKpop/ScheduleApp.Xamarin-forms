@@ -1,40 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-       xmlns:views="clr-namespace:ScheduleApp.View"
        x:Class="ScheduleApp.AppShell"
-       TitleColor="Black"
-       >
+       xmlns:views="clr-namespace:ScheduleApp.View"
+       TitleColor="Black">
     <TabBar>
         <Tab Title="Расписание"
              Route="Din219" Icon="graduationCap.png">
             <ShellContent Route="Din219" 
                 ContentTemplate="{DataTemplate views:Din219Page}"/>
-
         </Tab>
         <Tab Title="Зачеты"
-            Route="huh" Icon="megaphone.png">
-            <ShellContent Route="hell" 
-                ContentTemplate="{DataTemplate views:ProstateExam}"/>
-
+            Route="Exam" Icon="megaphone.png">
+            <ShellContent Route="Exam219" 
+                ContentTemplate="{DataTemplate views:Exam}"/>
         </Tab>
     </TabBar>
-    <!--
-     <TabBar>
-     <Tab Title="Расписание"
-              Route="Din219">
-         <ShellContent Route="Din219" 
-                       Title="Неделя № 3"
-                       ContentTemplate="{DataTemplate views:Din219Page}"/>
-
-     </Tab>
-     <Tab Title="Зачеты"
-      Route="huh">
-         <ShellContent Route="hell" 
-               Title="Неделя № 3"
-               ContentTemplate="{DataTemplate views:ProstateExam}"/>
-
-     </Tab>
- </TabBar> -->
 </Shell>
+  

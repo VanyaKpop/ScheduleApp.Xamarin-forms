@@ -129,18 +129,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\megaphone.png" />
-    <AndroidResource Include="Resources\drawable\reservationTable.png" />
     <AndroidResource Include="Resources\drawable\xamarin.png" />
     <AndroidResource Include="Resources\mipmap-hdpi\megaphone.png" />
-    <AndroidResource Include="Resources\mipmap-hdpi\reservationTable.png" />
     <AndroidResource Include="Resources\mipmap-mdpi\megaphone.png" />
-    <AndroidResource Include="Resources\mipmap-mdpi\reservationTable.png" />
     <AndroidResource Include="Resources\mipmap-xhdpi\megaphone.png" />
-    <AndroidResource Include="Resources\mipmap-xhdpi\reservationTable.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\megaphone.png" />
-    <AndroidResource Include="Resources\mipmap-xxhdpi\reservationTable.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\megaphone.png" />
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\reservationTable.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\mipmap-xxxhdpi\graduationCap.png" />
@@ -159,24 +153,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\graduationCap.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\house_chimney.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\house_chimney.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\house_chimney.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\house_chimney.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\house_chimney.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\house_chimney.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

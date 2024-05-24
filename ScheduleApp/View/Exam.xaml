@@ -1,15 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ScheduleApp.View.ProstateExam"
-             BackgroundColor="#F3F3F3"
-             >
+             x:Class="ScheduleApp.View.Exam"
+             BackgroundColor="#F3F3F3">
     <StackLayout>
         <Frame>
             <Label Text="Удачи чемпион" HorizontalOptions="Center" FontSize="Medium" TextColor="Black" Style="{StaticResource AnotherFontStyle}"/>
-        </Frame>
-        <Frame Style="{StaticResource FrameStyle}">
-            <Label Text="Экзамены появятся как только их выложат в открытый доступ" Style="{StaticResource FontStyle}"/>
         </Frame>
         <Frame Style="{StaticResource FrameStyle}">
             <Label Text="Компьютерные сети. Диф.Зачет. 7 мая. В 10:30. В 208 ауд." Style="{StaticResource FontStyle}"/>
@@ -26,6 +22,6 @@
         <Frame Style="{StaticResource FrameStyle}">
             <Label Text="Производственная практика. Диф.Зачет. 21 июня. В 8:45. В 410 ауд." Style="{StaticResource FontStyle}"/>
         </Frame>
-        <Frame Style="{StaticResource NothingFrame}"/>
     </StackLayout>
 </ContentPage>
+   

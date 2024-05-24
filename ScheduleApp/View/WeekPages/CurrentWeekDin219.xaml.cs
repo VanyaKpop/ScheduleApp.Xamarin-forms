@@ -18,15 +18,12 @@ namespace ScheduleApp.View.WeekPages
 		public CurrentWeekDin219()
 		{
 			InitializeComponent();
-			
 			SetText();
-
 		}
 
 		void SetText()
 		{
 			Lessons lessons = new Lessons();
-
 			int week = (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1;
             this.BindingContext = new LessonsViewModel()
 			{
@@ -37,7 +34,6 @@ namespace ScheduleApp.View.WeekPages
 				Thursday = IsEmpty(lessons.JsonLoad("thursday", week)),
 				Friday = IsEmpty(lessons.JsonLoad("friday", week)),
 				Saturday = IsEmpty(lessons.JsonLoad("saturday", week)),
-
 			};
 		}
         string IsEmpty(string str)
@@ -46,6 +42,5 @@ namespace ScheduleApp.View.WeekPages
                 return "Пусто";
             return str;
         }
-
     }
 }

@@ -1,21 +1,16 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 using System.Collections.Generic;
 using System.IO;
-using System.Globalization;
 using Newtonsoft.Json;
 using System.Linq;
-using ScheduleApp.View.WeekPages;
-
 
 namespace lessons
 {
     class Lessons
     {
-
         public string JsonLoad(string weekNow, int week)
         {
-            string hell = "";
+            string str = "";
 
             var assembly = IntrospectionExtensions.GetTypeInfo(typeof(Lessons)).Assembly;
 
@@ -33,10 +28,10 @@ namespace lessons
 
                 foreach (var i in result)
                 {
-                    hell += $"{i.numeration}.  {i.lesson} \n";
+                    str += $"{i.numeration}.  {i.lesson} \n";
                 }
 
-                return hell;
+                return str;
             }
         }
     }

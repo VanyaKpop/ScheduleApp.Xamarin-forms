@@ -20,11 +20,6 @@ namespace ScheduleApp
 		{
 			InitializeComponent();
 
-            Din219Page current = new Din219Page();
-
-			
-
-            Shell.SetNavBarHasShadow(this, false);
 			Shell.SetNavBarIsVisible(this, false);
         }
     }

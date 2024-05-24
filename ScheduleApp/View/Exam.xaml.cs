@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace ScheduleApp.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ProstateExam : ContentPage
+	public partial class Exam : ContentPage
 	{
-		public ProstateExam()
+		public Exam()
 		{
 			InitializeComponent();
 		}
