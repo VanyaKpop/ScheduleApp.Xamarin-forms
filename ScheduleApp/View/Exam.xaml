@@ -4,24 +4,12 @@
              x:Class="ScheduleApp.View.Exam"
              BackgroundColor="#F3F3F3">
     <StackLayout>
-        <Frame>
-            <Label Text="Удачи чемпион" HorizontalOptions="Center" FontSize="Medium" TextColor="Black" Style="{StaticResource AnotherFontStyle}"/>
-        </Frame>
         <Frame Style="{StaticResource FrameStyle}">
-            <Label Text="Компьютерные сети. Диф.Зачет. 7 мая. В 10:30. В 208 ауд." Style="{StaticResource FontStyle}"/>
+            <Label Text="Нажимаешь кнопку и расписание обновляется само по себе, так мне не придется каждый раз его изменять и делать новый apk. А, и еще, виджет теперь может обновляться слегка дольше/" Style="{StaticResource FontStyle}"/>
         </Frame>
-        <Frame Style="{StaticResource FrameStyle}">
-            <Label Text="Философия. Диф.Зачет. 15 мая. В 8:45. В 111 ауд." Style="{StaticResource FontStyle}"/>
-        </Frame>
-        <Frame Style="{StaticResource FrameStyle}">
-            <Label Text="Физ-ра. Зачет. 20 мая. В 10:30." Style="{StaticResource FontStyle}"/>
-        </Frame>
-        <Frame Style="{StaticResource FrameStyle}">
-            <Label Text="Учебная практика. Диф.Зачет. 7 июня. В 8:45. В 113 ауд." Style="{StaticResource FontStyle}"/>
-        </Frame>
-        <Frame Style="{StaticResource FrameStyle}">
-            <Label Text="Производственная практика. Диф.Зачет. 21 июня. В 8:45. В 410 ауд." Style="{StaticResource FontStyle}"/>
-        </Frame>
+        <Button Text = "Нажми!" FontSize="Large" BorderWidth="1"
+            HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+            Clicked="OnButtonClicked" />
     </StackLayout>
 </ContentPage>
    

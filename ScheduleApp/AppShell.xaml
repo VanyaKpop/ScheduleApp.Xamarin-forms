@@ -10,11 +10,6 @@
             <ShellContent Route="Din219" 
                 ContentTemplate="{DataTemplate views:Din219Page}"/>
         </Tab>
-        <Tab Title="Зачеты"
-            Route="Exam" Icon="megaphone.png">
-            <ShellContent Route="Exam219" 
-                ContentTemplate="{DataTemplate views:Exam}"/>
-        </Tab>
     </TabBar>
 </Shell>
   

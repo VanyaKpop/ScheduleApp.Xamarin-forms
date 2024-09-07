@@ -3,36 +3,63 @@ using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 using System.Linq;
+using ScheduleApp.Model;
+using System.Net.Http;
+using System.Net;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
 
 namespace lessons
 {
     class Lessons
     {
-        public string JsonLoad(string weekNow, int week)
+
+		private HttpClient httpClient = new HttpClient();
+		public async Task<string> JsonLoad(string weekNow, int week)
         {
             string str = "";
+			try
+			{
+				Root resulteParse = await httpClient.GetFromJsonAsync<Root>("https://raw.githubusercontent.com/VanyaKpop/JsonFiles/main/Lessons_Din_219.json");
+				var result =
+					from i in resulteParse.Lesson
+					where i.weekStart <= week && week <= i.weekEnd && i.idWeek == weekNow && (i.even == null || i.even == (week % 2 == 0))
 
-            var assembly = IntrospectionExtensions.GetTypeInfo(typeof(Lessons)).Assembly;
+					orderby i.numeration
+					select i;
 
-            using (StreamReader reader = new StreamReader(assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")))
+				foreach (var item in result)
+				{
+					str += $"{item.numeration}) {item.lesson} - {item.time} \n";
+				}
+
+				return str;
+			}
+            catch
             {
-                var json = reader.ReadToEnd().ToString();
-                Root resultParse = JsonConvert.DeserializeObject<Root>(json);
+				var assembly = IntrospectionExtensions.GetTypeInfo(typeof(Lessons)).Assembly;
 
-                var result =
-                    from i in resultParse.Lesson
-                    where i.weekStart <= week && week <= i.weekEnd && i.idWeek == weekNow && (i.even == null || i.even == (week % 2 == 0))
+				using (StreamReader reader = new StreamReader(assembly.GetManifestResourceStream("ScheduleApp.Data.Lesson.json")))
+				{
+					var json = reader.ReadToEnd().ToString();
+					Root resultParse = JsonConvert.DeserializeObject<Root>(json);
 
-                    orderby i.numeration
-                    select i;
+					var result =
+						from i in resultParse.Lesson
+						where i.weekStart <= week && week <= i.weekEnd && i.idWeek == weekNow && (i.even == null || i.even == (week % 2 == 0))
 
-                foreach (var i in result)
-                {
-                    str += $"{i.numeration}.  {i.lesson} \n";
-                }
+						orderby i.numeration
+						select i;
 
-                return str;
-            }
+					foreach (var i in result)
+					{
+						str += $"{i.numeration}.  {i.lesson} \n";
+					}
+
+					return str;
+				}
+			}
+            
         }
     }
     class Lesson

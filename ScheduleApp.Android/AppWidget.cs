@@ -37,11 +37,11 @@ namespace ScheduleApp.Droid
 
             return widgetView;
         }
-        private void SetTextViewText(RemoteViews widgetView)
+        private async void SetTextViewText(RemoteViews widgetView)
         {
             Lessons lessons = new Lessons();
             
-            widgetView.SetTextViewText(Resource.Id.widgetText, lessons.jsonLoad());
+            widgetView.SetTextViewText(Resource.Id.widgetText, await lessons.jsonLoad());
         }
         
         private void RegisterClicks(Context context, int[] appWidgetIds, RemoteViews widgetView)

@@ -21,19 +21,20 @@ namespace ScheduleApp.View.WeekPages
 			SetText();
 		}
 
-		void SetText()
+		async void SetText()
 		{
 			Lessons lessons = new Lessons();
-			int week = (int)ISOWeek.GetWeekOfYear(DateTime.Now) - 1;
-            this.BindingContext = new LessonsViewModel()
+			DateTime Date = new DateTime(2024, 1, 1, DateTime.Now.Hour, DateTime.Now.Minute, DateTime.Now.Second);
+			int week = (int)ISOWeek.GetWeekOfYear(Date);
+			this.BindingContext = new LessonsViewModel()
 			{
 				Week = $"{week} неделя",
-				Monday = IsEmpty(lessons.JsonLoad("monday", week)),
-				Tuesday = IsEmpty(lessons.JsonLoad("tuesday", week)),
-				Wednesday = IsEmpty(lessons.JsonLoad("wednesday", week)),
-				Thursday = IsEmpty(lessons.JsonLoad("thursday", week)),
-				Friday = IsEmpty(lessons.JsonLoad("friday", week)),
-				Saturday = IsEmpty(lessons.JsonLoad("saturday", week)),
+				Monday = IsEmpty(await lessons.JsonLoad("monday", week)),
+				Tuesday = IsEmpty(await lessons.JsonLoad("tuesday", week)),
+				Wednesday = IsEmpty(await lessons.JsonLoad("wednesday", week)),
+				Thursday = IsEmpty(await lessons.JsonLoad("thursday", week)),
+				Friday = IsEmpty(await lessons.JsonLoad("friday", week)),
+				Saturday = IsEmpty(await lessons.JsonLoad("saturday", week)),
 			};
 		}
         string IsEmpty(string str)
